@@ -87,4 +87,8 @@ boton.addEventListener("click" , e =>{
     }
     contenedor5.appendChild(fragmento); 
 
+    //otra forma de agregar nuevo codigo
+    contenedor5.insertAdjacentHTML("beforebegin", "<article> Hola soy articulo creado con adjacenthtml </article> ")
+
+
 });
